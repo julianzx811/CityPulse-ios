@@ -1,5 +1,4 @@
-# CityPulse 🌍
-
+# CityPulse
 Real-time weather app for iOS built with clean architecture.
 
 ## Features
@@ -42,8 +41,8 @@ graph TD
         API[WeatherAPI]
         WM[WeatherModel]
     end
-    View -->|@StateObject| ViewModel
-    ViewModel -->|async/await| Repository
-    Repository -->|URLSession| Data
-    Data -->|REST/JSON| External[OpenWeather API]
+    View -- "@StateObject" --> ViewModel
+    ViewModel -- "async/await" --> Repository
+    Repository -- "URLSession" --> Data
+    Data -- "REST/JSON" --> External[OpenWeather API]
 ```
