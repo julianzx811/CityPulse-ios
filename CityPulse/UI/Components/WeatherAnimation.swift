@@ -75,13 +75,13 @@ struct SunAnimationView: View {
                     rotation = 360
                 }
                 withAnimation(.easeInOut(duration: 1.5).repeatForever()) {
-                    pulse = 1.1ß
+                    pulse = 1.1
                 }
             }
         }
     }
 }
-ß
+
 struct CloudAnimationView: View {
     @State private var offsetX = -10.0
     

@@ -8,7 +8,6 @@ struct WeatherResponse: Codable, Sendable {
     let sys: Sys
     let coord: Coord
 }
-ß
 struct Main: Codable, Sendable {
     let temp: Double
     let feelsLike: Double
