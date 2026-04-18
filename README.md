@@ -1,4 +1,4 @@
-# CityPulse
+# CityPulse 🌍
 
 Real-time weather app for iOS built with clean architecture.
 
@@ -11,6 +11,17 @@ Real-time weather app for iOS built with clean architecture.
 
 ## Architecture
 MVVM + Repository Pattern
+
+## Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| UI | SwiftUI |
+| Networking | URLSession |
+| Maps | MapKit |
+| Images | Kingfisher |
+| DI | Factory |
+| Async | async/await + Combine |
+| Package Manager | SPM |
 
 ## Architecture Diagram
 ```mermaid
